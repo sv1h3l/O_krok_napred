@@ -3,13 +3,13 @@ import Head from "next/head";
 
 export default function Cancer() {
     return (
-        <>
+        <div>
             <Head>
                 <title>O krok napřed - Rakovina</title>
             </Head>
             <Header active="cancer"></Header>
-            <main className="p-3 max-w-7xl mx-auto">
-                <section className="bg-[#c7f2ff] p-3 border rounded-md mb-3">
+            <main className=" max-w-7xl mx-auto border-x border-gray-100 linePatern border-b">
+                <section className="bg-[#c7f2ff] p-3 border ">
                     <h2 className="text-2xl font-bold mb-3">Rakovina</h2>
                     <p className="text-md mb-2">Slovo, pod kterým si žádná lidská bytost nepředstaví nic hezkého, ani příjemného. Co to vůbec ale rakovina či nádorové onemocnění znamená, a co s sebou nese?</p>
                     <p className="text-md">
@@ -18,8 +18,8 @@ export default function Cancer() {
                     </p>
                 </section>
 
-                <section className="shadow-md border rounded-md mb-3">
-                    <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Víš, jak nádorová onemocnění můžeme rozdělit?</h3>
+                <section className=" pt-5 ">
+                    <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Víš, jak nádorová onemocnění můžeme rozdělit?</h3>
                     <div className="space-y-2 px-3 py-3">
                         <p>
                             <strong>Zhoubné nádory</strong> jsou schopny se pomocí krevního systému šířit po celém těle ve formě dalších nádorů – metastáz.
@@ -30,11 +30,9 @@ export default function Cancer() {
                     </div>
                 </section>
 
-                <section className="space-y-4">
-                    <article className="shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">
-                            Nádory také můžeme definovat do čtyř základních skupin, které určují, kde daný tumor vznikl
-                        </h3>
+                <section className="">
+                    <article className=" pt-2 ">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit  md:rounded-r-md py-2 px-3 text-white z-10 font-light">Nádory také můžeme definovat do čtyř základních skupin, které určují, kde daný tumor vznikl</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 <strong>Karcinom</strong> – jedná se zde o nejčastější typ nádorového onemocnění, jeho vznik se týká především kůže, povrchy tkání orgánů...
@@ -51,10 +49,8 @@ export default function Cancer() {
                         </div>
                     </article>
 
-                    <article className=" shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg  w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">
-                            Jedny z nejčastějších druhů rakoviny, se kterými se můžeme setkat jsou
-                        </h3>
+                    <article className="pt-2 ">
+                        <h3 className="bg-[#1E8FDB] text-lg  w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Jedny z nejčastějších druhů rakoviny, se kterými se můžeme setkat jsou</h3>
                         <div className="space-y-2  px-3 py-3">
                             <div>
                                 <strong>Rakovina plic</strong>
@@ -110,8 +106,7 @@ export default function Cancer() {
                         </div>
                     </article>
                 </section>
-
             </main>
-        </>
+        </div>
     );
 }

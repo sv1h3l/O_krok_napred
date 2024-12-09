@@ -8,8 +8,8 @@ export default function Prevention() {
                 <title>O krok napřed - Prevence</title>
             </Head>
             <Header active="prevention"></Header>
-            <main className="p-3 max-w-7xl mx-auto">
-                <section className="bg-[#c7f2ff] p-3 border rounded-md mb-3">
+            <main className="border-x border-gray-100 max-w-7xl mx-auto linePatern">
+                <section className="bg-[#c7f2ff] p-3 border  ">
                     <h2 className="text-2xl font-bold mb-3">5 důvodů, proč je prevence rakoviny důležitá i pro mladší generace</h2>
 
                     <div className="text-md">
@@ -28,9 +28,9 @@ export default function Prevention() {
                     </p>
                 </section>
 
-                <section className="space-y-4 mb-8">
-                    <article className="shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">1. Rakovina postihuje mladé lidi víc, než si uvědomuješ</h3>
+                <section className=" mb-6 ">
+                    <article className="  pt-5 ">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">1. Rakovina postihuje mladé lidi víc, než si uvědomuješ</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 Ačkoli jsou některé typy rakoviny častější u starších lidí, například rakovina plic nebo tlustého střeva, jiné druhy – jako je <strong>melanom</strong>, <strong>rakovina prsu</strong> nebo <strong>varlat</strong> či{" "}
@@ -39,8 +39,8 @@ export default function Prevention() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">2. Tvůj současný životní styl ovlivňuje tvé budoucí zdraví</h3>
+                    <article className="  pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">2. Tvůj současný životní styl ovlivňuje tvé budoucí zdraví</h3>
                         <div className="space-y-1 px-3 py-3">
                             <p>
                                 Zvyk je železná košile, a právě v mladém věku si tvoříme návyky, které nás budou provázet celý život. Kouření, častá konzumace alkoholu, nezdravé stravování a nedostatek pohybu jsou rizikové faktory, které se mohou v
@@ -55,8 +55,8 @@ export default function Prevention() {
                             <p>Tak co, stále máš chuť na svůj oblíbený vapík nebo ho raději pošleš do koše?</p>
                         </div>
                     </article>
-                    <article className="shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">3. Časná prevence a samovyšetření ti mohou zachránit život</h3>
+                    <article className="  pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">3. Časná prevence a samovyšetření ti mohou zachránit život</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 Samovyšetření a pravidelné lékařské prohlídky mají významnou roli v časném odhalení rakoviny. Například pravidelné samovyšetření prsou a varlat může pomoci zachytit změny, které mohou signalizovat rakovinu. Důležité je
@@ -66,8 +66,8 @@ export default function Prevention() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">4. Očkování je kámoš</h3>
+                    <article className="  pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">4. Očkování je kámoš</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 Pro mladé lidi může být klíčové očkování proti HPV, které je úzce spojeno s rakovinou děložního čípku, ale i dalšími druhy rakoviny, jako jsou rakovina hlavy a krku. Díky očkování lze předejít velkému množství případů
@@ -87,8 +87,8 @@ export default function Prevention() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">5. Prevence ovlivňuje psychickou pohodu</h3>
+                    <article className="  pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">5. Prevence ovlivňuje psychickou pohodu</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 Vědomí, že se aktivně staráš o své zdraví, může mít pozitivní vliv i na tvou psychickou pohodu. Prevence rakoviny a zdravý životní styl ti mohou dát pocit kontroly a jistoty, že děláš to nejlepší pro své zdraví. Tímto
@@ -98,14 +98,14 @@ export default function Prevention() {
                     </article>
                 </section>
 
-                <section className="bg-[#c7f2ff] p-3 border rounded-md mb-3">
+                <section className="bg-[#c7f2ff] p-3 border mb-2">
                     <h2 className="text-2xl font-bold mb-3">Samovyšetření – věc, která ti může zachránit život</h2>
                     <p className="text-md">Nevíš jak na samovyšetření prsou, varlat, kůže nebo třeba ústní dutiny? Nevadí – v tomto článku se dozvíš, jak taková samovyšetření provést krok za krokem. Tak jdeme na to!</p>
                 </section>
 
-                <section className="space-y-4 mb-8">
-                    <article className="shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Samovyšetření prsou</h3>
+                <section className=" mb-6">
+                    <article className="  pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Samovyšetření prsou</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 Samovyšetření prsou je jednoduchý a účinný způsob, jak včas odhalit možné změny, které mohou naznačovat rakovinu prsu. Je důležité věnovat se mu pravidelně, ideálně každý měsíc, mezi 5. a 10. dnem od začátku
@@ -141,8 +141,8 @@ export default function Prevention() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Samovyšetření varlat</h3>
+                    <article className="  pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Samovyšetření varlat</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 Rakovina varlat je u mladších mužů poměrně častá. Samovyšetření varlat je dobrý způsob, jak zjistit jakékoliv změny, které mohou naznačovat problémy. Samovyšetření prováděj ideálně každý měsíc, ideálně po sprše, kdy
@@ -168,8 +168,8 @@ export default function Prevention() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Samovyšetření kůže</h3>
+                    <article className="  pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Samovyšetření kůže</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 <strong>Melanom kůže</strong> je jedním z nejnebezpečnějších typů rakoviny kůže, ale pokud je včas zachycen, lze ho úspěšně léčit. Jedním z klíčových faktorů prevence je ochrana před nadměrnou expozicí slunečnímu
@@ -204,7 +204,7 @@ export default function Prevention() {
                     </article>
                 </section>
 
-                <section className="bg-[#c7f2ff] p-3 border rounded-md mb-3">
+                <section className="bg-[#c7f2ff] p-3 border  mb-2">
                     <h2 className="text-2xl font-bold mb-3">Preventivní prohlídky</h2>
 
                     <p className="text-md">
@@ -213,9 +213,9 @@ export default function Prevention() {
                     </p>
                 </section>
 
-                <section className="space-y-4 ">
-                    <article className="shadow-md border rounded-md">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Jak často a co všechno zahrnují</h3>
+                <section className="">
+                    <article className="  pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Jak často a co všechno zahrnují</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 V rámci preventivní prohlídky máš nárok i na onkologickou prevenci. Kdy tvůj lékař vyhodnotí možná rizika vzniku rakoviny na základě rodinné historie, profesního zaměření a aktuálního zdravotního stavu. Součástí této

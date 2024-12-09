@@ -8,9 +8,9 @@ export default function Treatment() {
                 <title>O krok napřed - Léčba</title>
             </Head>
             <Header active="treatment"></Header>
-            <main className=" max-w-7xl mx-auto">
-                <section className="p-3">
-                    <article className="bg-[#c7f2ff] p-3 border rounded-md mb-3">
+            <main className="border-x border-gray-100 max-w-7xl mx-auto linePatern">
+                <section className="">
+                    <article className="bg-[#c7f2ff] p-3 border mb-2">
                         <h2 className="text-2xl font-semibold mb-3">Léčba rakoviny</h2>
                         <p className="text-md">
                             Léčba nádorového onemocnění není vždy jen prací jednoho lékaře. Je zde zapotřebí více odborníků z různých oborů, kteří společně vyhodnotí na základě umístění onemocnění v těle, zdravotního stavu pacienta, typu nádoru a
@@ -18,8 +18,8 @@ export default function Treatment() {
                         </p>
                     </article>
 
-                    <article className=" shadow-md border rounded-md mb-3 ">
-                        <h3 className="bg-[#1E8FDB] text-lg  w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Primární tři metody léčby rakoviny</h3>
+                    <article className="  pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg  w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Primární tři metody léčby rakoviny</h3>
                         <div className="space-y-2  px-3 py-3">
                             <div>
                                 <strong>Chirurgická léčba</strong>
@@ -54,8 +54,8 @@ export default function Treatment() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md mb-3">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Radioterapie</h3>
+                    <article className=" pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Radioterapie</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 Radioterapie je léčebná metoda, která využívá vysokofrekvenční záření (například rentgenové nebo gama záření) k ničení rakovinových buněk nebo zpomalení jejich růstu. Většinou se ozařuje pouze nádor a jeho okolí,
@@ -84,8 +84,8 @@ export default function Treatment() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md mb-3">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Biologická terapie (bioterapie)</h3>
+                    <article className=" pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Biologická terapie (bioterapie)</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 Biologická terapie využívá biologické látky (přírodní nebo syntetické) na podporu a posílení imunitního systému, který bojuje proti rakovině. Cílem je upravit biologické procesy v těle tak, aby se zlepšil boj proti
@@ -103,8 +103,8 @@ export default function Treatment() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md mb-3">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Protonová terapie</h3>
+                    <article className=" pt-2 ">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Protonová terapie</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 Protonová terapie je specifická forma radioterapie, která využívá protony (kladně nabité částice) místo rentgenového záření k léčbě rakoviny. Tento typ terapie je velmi přesný, protože dokáže přesněji zaměřit záření na
@@ -123,8 +123,8 @@ export default function Treatment() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md mb-3">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Hormonální terapie</h3>
+                    <article className=" pt-2 ">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Hormonální terapie</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>Hormonální terapie se používá při léčbě rakoviny, která je závislá na hormonech pro svůj růst, jako jsou rakoviny prsníku nebo prostaty. Cílem této terapie je blokovat účinky hormonů, které podporují růst nádoru.</p>
                             <p>
@@ -140,8 +140,8 @@ export default function Treatment() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md mb-3">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Imunoterapie</h3>
+                    <article className=" pt-2 ">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Imunoterapie</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>Imunoterapie je typ léčby, který stimuluje imunitní systém, aby účinněji bojoval proti rakovině. Cílem imunoterapie je posílit přirozenou obranyschopnost těla proti rakovinovým buňkám.</p>
                             <p>
@@ -158,8 +158,8 @@ export default function Treatment() {
                         </div>
                     </article>
 
-                    <article className="shadow-md border rounded-md ">
-                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit rounded-tl-md rounded-tr-md md:rounded-tr-none md:rounded-br-md py-2 px-3 text-white z-10 font-light">Transplantace</h3>
+                    <article className="  pt-2">
+                        <h3 className="bg-[#1E8FDB] text-lg w-full md:w-fit md:rounded-r-md py-2 px-3 text-white z-10 font-light">Transplantace</h3>
                         <div className="space-y-2 px-3 py-3">
                             <p>
                                 Transplantace se používá na léčbu některých typů rakoviny, jako jsou leukémie nebo lymfomy, kdy je rakovina přítomna v kostní dřeni nebo krvi. Transplantace krvotvorných buněk (kmenových buněk) může být léčbou, která
