@@ -91,7 +91,7 @@ const Header = ({ active }: HeaderProps) => {
                                 href="../"
                                 className={`${
                                     active == "index" ? "bg-[#c7f2ff] text-[#0A58CA]" : "bg-[#0A58CA] md:bg-transparent text-white"
-                                } transition duration-200 md:hover:text-[#0A58CA] md:hover:bg-[#c7f2ff] md:px-4 lg:px-6 md:pt-7 md:pb-6 border-gray-300 border-l pt-1 pb-0.5 px-2`}
+                                } transition duration-200 md:hover:text-[#0A58CA] md:hover:bg-[#c7f2ff] md:px-3 lg:px-6 md:pt-7 md:pb-6 border-gray-300 border-l pt-1 pb-0.5 px-2`}
                             >
                                 Úvod
                             </Link>
@@ -100,7 +100,7 @@ const Header = ({ active }: HeaderProps) => {
                             <Link
                                 href="/health"
                                 className={`${active == "health" ? "bg-[#c7f2ff] text-[#0A58CA]" : "bg-[#0A58CA] md:bg-transparent text-white"}
-                                transition duration-200 md:hover:text-[#0A58CA] md:hover:bg-[#c7f2ff] md:px-4 lg:px-6 md:pt-7 md:pb-6 border-gray-300 border-l  pt-1 pb-0.5 px-2`}
+                                transition duration-200 md:hover:text-[#0A58CA] md:hover:bg-[#c7f2ff] md:px-3 lg:px-6 md:pt-7 md:pb-6 border-gray-300 border-l  pt-1 pb-0.5 px-2`}
                             >
                                 Zdraví
                             </Link>
@@ -110,7 +110,7 @@ const Header = ({ active }: HeaderProps) => {
                                 href="/cancer"
                                 className={`${
                                     active == "cancer" ? "bg-[#c7f2ff] text-[#0A58CA]" : "bg-[#0A58CA] md:bg-transparent text-white"
-                                } transition duration-200 md:hover:text-[#0A58CA] md:hover:bg-[#c7f2ff] md:px-4 lg:px-6 md:pt-7 md:pb-6 border-gray-300  border-l  pt-1 pb-0.5 px-2`}
+                                } transition duration-200 md:hover:text-[#0A58CA] md:hover:bg-[#c7f2ff] md:px-3 lg:px-6 md:pt-7 md:pb-6 border-gray-300  border-l  pt-1 pb-0.5 px-2`}
                             >
                                 Rakovina
                             </Link>
@@ -120,7 +120,7 @@ const Header = ({ active }: HeaderProps) => {
                                 href="/prevention"
                                 className={`${
                                     active == "prevention" ? "bg-[#c7f2ff] text-[#0A58CA]" : "bg-[#0A58CA] md:bg-transparent text-white"
-                                } transition duration-200 md:hover:text-[#0A58CA] md:hover:bg-[#c7f2ff] md:px-4 lg:px-5 md:pt-7 md:pb-6 border-gray-300  border-l pt-1 pb-0.5 px-2`}
+                                } transition duration-200 md:hover:text-[#0A58CA] md:hover:bg-[#c7f2ff] md:px-3 lg:px-5 md:pt-7 md:pb-6 border-gray-300  border-l pt-1 pb-0.5 px-2`}
                             >
                                 Prevence
                             </Link>
@@ -130,7 +130,7 @@ const Header = ({ active }: HeaderProps) => {
                                 href="/treatment"
                                 className={`${
                                     active == "treatment" ? "bg-[#c7f2ff] text-[#0A58CA]" : "bg-[#0A58CA] md:bg-transparent text-white"
-                                } transition duration-200 md:hover:text-[#0A58CA] md:hover:bg-[#c7f2ff] md:px-4 lg:px-6 md:pt-7 md:pb-6 border-gray-300  border-l md:border-t-0 md:border-r pt-1 pb-0.5 px-2`}
+                                } transition duration-200 md:hover:text-[#0A58CA] md:hover:bg-[#c7f2ff] md:px-3 lg:px-6 md:pt-7 md:pb-6 border-gray-300  border-l md:border-t-0 md:border-r pt-1 pb-0.5 px-2`}
                             >
                                 Léčba
                             </Link>
