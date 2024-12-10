@@ -77,7 +77,7 @@ export default function Health() {
                 <title>O krok napřed - Zdraví</title>
             </Head>
             <Header active="health"></Header>
-            <main className="max-w-7xl mx-auto border-x border-gray-100">
+            <main className="max-w-7xl mx-auto border-x linePatern border-gray-100">
                 <section className="bg-[#c7f2ff] p-3  border">
                     <h2 className="text-2xl font-bold mb-2">Zdraví není náhoda!</h2>
                     <p className="text-md mb-4">
@@ -88,7 +88,7 @@ export default function Health() {
                     <p className="text-m block font-medium">A jak se konkrétně starat o své tělo a mysl každý den?</p>
                     <p className="text-m block">Zde je 5 osvědčených tipů, které nám mohou pomoci na cestě k dlouhodobé pohodě a síle.</p>
                 </section>
-                <section className="space-y-2 pt-4 linePatern ">
+                <section className="space-y-2 pt-4  ">
                     {tips.map((tip, index) => (
                         <article
                             key={index}
